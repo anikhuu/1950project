@@ -1,0 +1,118 @@
+/*--CARSON BAIN and ANITA KHUU PROPOSAL STYLE SHEET COMP 1950 PROJECT--*/
+
+@charset "utf-8";
+
+main {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #243145;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    border-radius: 2px;
+    background-color: white;
+    border-bottom: 3px solid #266a2e;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    font-size: 12px;
+    color: #999;
+    padding: 20px;
+    text-align: center;
+}
+
+/*--LINKS--*/
+
+a:link,
+a:visited,
+a:active {
+    color: #be7d15;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+}
+
+
+/*--NAVIGATION--*/
+
+nav {
+    float: left;
+    max-width: 150px;
+}
+
+#menu {
+    margin: 0;
+}
+
+.menu {
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu:hover {
+    border-bottom: 3px solid #266a2e;
+}
+
+.validate{
+    line-height: 25px;
+    text-align: center;
+}
+
+/* Main Content */
+
+#wrapper {
+    padding: 15px;
+    min-height: calc(100vh - 84px);
+    background-color: #f8f8f8;
+}
+
+main {
+    float: left;
+    min-height: 100%;
+    width: 81%;
+    padding: 10px 0px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+h1, h2{
+    margin-bottom: 2px;
+}
+
+p{
+    margin-top: 0;
+    padding: 10px;
+}
+
+.clear {
+    clear: left;
+}
