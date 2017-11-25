@@ -12,8 +12,17 @@ $(document).ready(function(){
     });
 //hide header and slide main container up for more presenting area
     $(".hide-header").click(function() {
-      $(".head-wrap").hide();
-      $('.main-container').animate({marginTop: '30px'}, 1200);
+      $(".hide-header").addClass("disabled");
+      $(".head-wrap").slideUp("slow");
+      $('.main-container').animate({marginTop: '30px'}, "slow");
+      $(".show-header").removeClass("disabled");
     });
+    //show header and slide main container down for less presenting area
+        $(".show-header").click(function() {
+          $('.main-container').animate({marginTop: '175px'}, "slow");
+          $(".head-wrap").slideDown("slow");
+          $(".show-header").addClass("disabled");
+          $(".hide-header").removeClass("disabled");
 
+        });
 });
