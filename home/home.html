@@ -1,10 +1,12 @@
+  <!--Anita Khuu and Carson Bain COMP 1950-->
 <!DOCTYPE html>
 <html lang="en">
  <head>
  <meta charset = "UTF-8">
  <title>COMP 1950 - Home Page</title>
- <link rel = "stylesheet" type = "text/css" href = "../css/cssreset.css" />
- <link rel = "stylesheet" type = "text/css" href = "../css/mainstyle.css" />
+ <link rel = "stylesheet" href = "../css/cssreset.css" media="all" />
+ <link rel = "stylesheet" href = "../css/mainstyle.css" media="screen" />
+ <link rel = "stylesheet" href = "../css/print.css" media="print" />
  <!--scripts-->
  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
  <script type="text/javascript" src="../js/mainjs.js"></script>
@@ -15,7 +17,6 @@
  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-  <!--Anita Khuu and Carson Bain COMP 1950-->
 <header>
   <div class ="head-wrap">
     <div class="background-fade">
@@ -81,13 +82,18 @@
   </div>
 </header>
 <main class="main-container">
-<!--Use this button to hide header when you want more screen space for presentation haven't figured out how to show it, lol -->
+<!--Use this button to hide header when you want more screen space for presentation -->
   <aside class="hide-header">
     <a href="#">Click To Hide Header</a>
   </aside>
+  <!--Use this button to show header when you want to bring the header back -->
+    <aside class="show-header disabled">
+      <a href="#">Click To Show Header</a>
+    </aside>
   <aside class="info-bar">
     <p><i class="fa fa-lg fa-info-circle" aria-hidden="true"></i> This website is for BCIT students of the 12 week version of COMP1950. Check the <a href="#">course catalogue at BCIT</a> to see when this course is running next.</p>
   </aside>
+  <div id="main-content">
 <div class ="page-header">
   <h1>Course Description</h1>
 </div>
@@ -117,10 +123,13 @@
 <li>Understand basic development methodology.</li>
 </p>
   </section>
+</div>
 </main>
 <footer>
   <p>COMP1950 Website Mockup by Carson Bain and Anita Khuu</p>
+  <a class="school-logo" target="_blank" href="https://www.bcit.ca/"><img alt="BCIT Logo" src="../home/BCITlogo.png"></a>
 <p class ="validate"><a target="_blank" href="http://validator.w3.org/check?uri=referer">Validate Code</a></p>
+
 </footer>
 </body>
 </html>
