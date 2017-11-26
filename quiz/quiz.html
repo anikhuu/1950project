@@ -1,0 +1,207 @@
+<!--Anita Khuu and Carson Bain Quiz Page COMP 1950-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COMP 1950 - Quiz Sample Page</title>
+    <link rel="stylesheet" href="../css/cssreset.css" media="all" />
+    <link rel="stylesheet" href="../css/mainstyle.css" media="screen" />
+    <link rel="stylesheet" href="../css/print.css" media="print" />
+
+    <!--scripts-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../js/mainjs.js"></script>
+    <!--fonts from google-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <!--font awesome from MaxCDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<header>
+  <div class ="head-wrap">
+    <div class="background-fade">
+      <div class="title-wrap">
+  <h1><span class="title-num">COMP1950 |</span> <span class="title-txt"> Intermediate Web Design and Development</span></h1>
+  </div>
+  <nav>
+  <ul id="nav">
+    <li><a href="/home.html">Home</a></li>
+    <li>Lectures
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+      <ul class="nav-drop">
+          <!--these will contain links to lectures as they are available-->
+      <li><a target="_blank" href="../lecture/lecture.html">Lecture 1</a></li>
+      <li>Lecture 2</li>
+      <li>Lecture 3</li>
+      <li>Lecture 4</li>
+      <li>Lecture 5</li>
+      <li>Lecture 6</li>
+      <li>Lecture 7</li>
+      <li>Lecture 8</li>
+      <li>Lecture 9</li>
+      <li>Lecture 10</li>
+      <li>Lecture 11</li>
+      <li>Lecture 12</li>
+      </ul>
+    </li>
+    <li>Quiz
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+      <ul class="nav-drop">
+          <!--these will contain links to quizzes as they are available-->
+      <li><a target="_blank" href="../quiz/quiz.html">Quiz 1</a></li>
+      <li>Quiz 2</li>
+      <li>Quiz 3</li>
+      <li>Quiz 4</li>
+      <li>Quiz 5</li>
+      <li>Quiz 6</li>
+      <li>Quiz 7</li>
+      <li>Quiz 8</li>
+      <li>Quiz 9</li>
+      <li>Quiz 10</li>
+      </ul>
+    </li>
+  <li><a target="_blank" href="#">Resources</a></li>
+  <!--SEARCH BAR-->
+  <li class ="search-wrap">
+  <input class="search-box" type="text" placeholder="Search" name="search">
+  <a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+</li>
+  </ul>
+
+<!--MOBILE NAVIGATION -->
+<!--MOBILE SEARCH BAR-->
+<div class ="search-wrap search-mobile">
+<input class="search-box" type="text" placeholder="Search" name="search">
+<a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+</div>
+<a href="#"><i class="fa fa-bars fa-2x" id="mob-nav-icon" aria-hidden="true"></i></a>
+
+<div id="mobile-nav">
+
+  <ul id="mob-nav-list">
+
+    <li><a href="/home.html">Home</a></li>
+    <li class="parent-cat one"><a href="#">Lectures</a>
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+      <ul class="mob-second-drop one">
+          <!--these will contain links to lectures as they are available-->
+      <li><a target="_blank" href="../lecture/lecture1.html">Lecture 1</a></li>
+      <li>Lecture 2</li>
+      <li>Lecture 3</li>
+      <li>Lecture 4</li>
+      <li>Lecture 5</li>
+      <li>Lecture 6</li>
+      <li>Lecture 7</li>
+      <li>Lecture 8</li>
+      <li>Lecture 9</li>
+      <li>Lecture 10</li>
+      <li>Lecture 11</li>
+      <li>Lecture 12</li>
+      </ul>
+    </li>
+    <li class="parent-cat two"><a href="#">Quiz</a>
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+      <ul class="mob-second-drop two">
+          <!--these will contain links to quizzes as they are available-->
+          <li><a target="_blank" href="../quiz/quiz.html">Quiz 1</a></li>
+          <li>Quiz 2</li>
+          <li>Quiz 3</li>
+          <li>Quiz 4</li>
+          <li>Quiz 5</li>
+          <li>Quiz 6</li>
+          <li>Quiz 7</li>
+          <li>Quiz 8</li>
+          <li>Quiz 9</li>
+          <li>Quiz 10</li>
+          </ul>
+        </li>
+  <li><a target="_blank" href="#">Resources</a></li>
+
+  </ul>
+  </nav>
+</div>
+</div>
+  </div>
+</header>
+<main class="main-container">
+
+       <div id="main-content">
+           <div class="page-header">
+               <h1>Quiz #1 (Sample)</h1>
+           </div>
+           <section class="content-block">
+                <div class="answer">
+               <p>
+                   <span id="studentid">Student name: </span>
+               <input class="studentid" name="studentname" placeholder="Enter your first and last name" /><br />
+                   <span id="studentid">Student number:</span>
+               <input class="studentid" name="studentnum" placeholder="Enter your student number" />
+               </p>
+               </div>
+               <h3>Question 1</h3>
+               <p class="question">Name at least two things that you should do to a webpage to display it for printing. (2 marks)</p>
+               <div class="answer">
+                   <textarea class="shortanswer" placeholder="Type your answer here"></textarea>
+               </div>
+               <h3>Question 2</h3>
+               <p class="question">Media queries can be applied either in the link tag or defined in an external CSS file. (1 mark)</p>
+               <div class="answer">
+                   <form action="#">
+                       <p>
+                           <input name="group1" type="radio" id="test1" />
+                           <label for="test1">True</label>
+                       </p>
+                       <p>
+                           <input name="group1" type="radio" id="test2" />
+                           <label for="test2">False</label>
+                       </p>
+                   </form>
+               </div>
+               <h3>Question 3</h3>
+               <p class="question">Complete the CSS rule below to ensure images scale to the size of the parent. (2 marks)</p>
+               <div class="answer">
+                   <textarea class="shortanswer" placeholder="Type your answer here"></textarea>
+               </div>
+               <h3>Question 4</h3>
+               <p class="question">Choose the media query breakpoint that will match when the browser viewport is thinnest (1 mark)</p>
+               <div class="answer">
+                   <form action="#">
+                       <p>
+                           <input name="group2" type="radio" id="test3" />
+                           <label for="test3">@media only screen and (min-width: 1024px)</label>
+                       </p>
+                       <p>
+                           <input name="group2" type="radio" id="test4" />
+                           <label for="test4">@media only screen and (min-width: 300px) and (max-width:800px)</label>
+                       </p>
+                       <p>
+                           <input name="group2" type="radio" id="test5" />
+                           <label for="test5">@media only screen and (min-width: 800px) and (max-width:1024)</label>
+                       </p>
+                   </form>
+               </div>
+               <h3>Question 5</h3>
+               <p class="question">Write the media query breakpoint for when a browser viewport is less than 400px tall. (2 marks)</p>
+               <div class="answer">
+                   <textarea class="shortanswer" placeholder="Type your answer here"></textarea>
+               </div>
+               <h3>Question 6</h3>
+               <p class="question">Name at least two design best practices when style for small devices (2 marks)</p>
+               <div class="answer">
+                   <textarea class="shortanswer" placeholder="Type your answer here"></textarea>
+               </div>
+               <div id="quiz">
+                   <button class="submit">Submit Quiz</button>
+               </div>
+           </section>
+       </div>
+   </main>
+   <footer>
+       <p>COMP1950 Website Mockup by Carson Bain and Anita Khuu</p>
+       <a class="school-logo" target="_blank" href="https://www.bcit.ca/"><img alt="BCIT Logo" src="../home/BCITlogo.png"></a>
+       <p class="validate"><a target="_blank" href="http://validator.w3.org/check?uri=referer">Validate Code</a></p>
+
+   </footer>
+</body>
+</html>
