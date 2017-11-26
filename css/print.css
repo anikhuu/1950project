@@ -3,6 +3,7 @@
 aside, nav, .hide-header, .info-bar, .validate, footer img {
     display: none;
 }
+/*--THIS STYLE GETS CONFLICTED WHEN JS IS ACTIVATED FROM SHOW/HIDE HEADER BUTTON--*/
 main.main-container {
     margin-top: 0px;
   }
