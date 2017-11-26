@@ -1,0 +1,220 @@
+<!--Anita Khuu and Carson Bain COMP 1950-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "UTF-8">
+<title>COMP 1950 - Lecture 1</title>
+<link rel = "stylesheet" href = "../css/cssreset.css" media="all" />
+<link rel = "stylesheet" href = "../css/mainstyle.css" media="screen" />
+<link rel = "stylesheet" href = "../css/print.css" media="print" />
+<!--scripts-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+<script type="text/javascript" src="../js/mainjs.js"></script>
+<!--fonts from google-->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<!--font awesome from MaxCDN -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<header>
+<div class ="head-wrap">
+  <div class="background-fade">
+    <div class="title-wrap">
+<h1><span class="title-num">COMP1950 |</span> <span class="title-txt"> Intermediate Web Design and Development</span></h1>
+</div>
+<nav>
+<ul id="nav">
+  <li><a href="/home.html">Home</a></li>
+  <li>Lectures
+  <i class="fa fa-caret-down" aria-hidden="true"></i>
+    <ul class="nav-drop">
+        <!--these will contain links to lectures as they are available-->
+    <li><a target="_blank" href="../lecture/lecture.html">Lecture 1</a></li>
+    <li>Lecture 2</li>
+    <li>Lecture 3</li>
+    <li>Lecture 4</li>
+    <li>Lecture 5</li>
+    <li>Lecture 6</li>
+    <li>Lecture 7</li>
+    <li>Lecture 8</li>
+    <li>Lecture 9</li>
+    <li>Lecture 10</li>
+    <li>Lecture 11</li>
+    <li>Lecture 12</li>
+    </ul>
+  </li>
+  <li>Quiz
+  <i class="fa fa-caret-down" aria-hidden="true"></i>
+    <ul class="nav-drop">
+        <!--these will contain links to quizzes as they are available-->
+    <li><a target="_blank" href="../quiz/quiz.html">Quiz 1</a></li>
+    <li>Quiz 2</li>
+    <li>Quiz 3</li>
+    <li>Quiz 4</li>
+    <li>Quiz 5</li>
+    <li>Quiz 6</li>
+    <li>Quiz 7</li>
+    <li>Quiz 8</li>
+    <li>Quiz 9</li>
+    <li>Quiz 10</li>
+    </ul>
+  </li>
+<li><a target="_blank" href="#">Resources</a></li>
+<!--SEARCH BAR-->
+<li class ="search-wrap">
+<input class="search-box" type="text" placeholder="Search" name="search">
+<a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+</li>
+</ul>
+
+<!--MOBILE NAVIGATION -->
+<!--MOBILE SEARCH BAR-->
+<div class ="search-wrap search-mobile">
+<input class="search-box" type="text" placeholder="Search" name="search">
+<a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+</div>
+<a href="#"><i class="fa fa-bars fa-2x" id="mob-nav-icon" aria-hidden="true"></i></a>
+
+<div id="mobile-nav">
+
+<ul id="mob-nav-list">
+
+  <li><a href="/home.html">Home</a></li>
+  <li class="parent-cat one"><a href="#">Lectures</a>
+  <i class="fa fa-caret-down" aria-hidden="true"></i>
+    <ul class="mob-second-drop one">
+        <!--these will contain links to lectures as they are available-->
+    <li><a target="_blank" href="../lecture/lecture1.html">Lecture 1</a></li>
+    <li>Lecture 2</li>
+    <li>Lecture 3</li>
+    <li>Lecture 4</li>
+    <li>Lecture 5</li>
+    <li>Lecture 6</li>
+    <li>Lecture 7</li>
+    <li>Lecture 8</li>
+    <li>Lecture 9</li>
+    <li>Lecture 10</li>
+    <li>Lecture 11</li>
+    <li>Lecture 12</li>
+    </ul>
+  </li>
+  <li class="parent-cat two"><a href="#">Quiz</a>
+  <i class="fa fa-caret-down" aria-hidden="true"></i>
+    <ul class="mob-second-drop two">
+        <!--these will contain links to quizzes as they are available-->
+        <li><a target="_blank" href="../quiz/quiz.html">Quiz 1</a></li>
+        <li>Quiz 2</li>
+        <li>Quiz 3</li>
+        <li>Quiz 4</li>
+        <li>Quiz 5</li>
+        <li>Quiz 6</li>
+        <li>Quiz 7</li>
+        <li>Quiz 8</li>
+        <li>Quiz 9</li>
+        <li>Quiz 10</li>
+        </ul>
+      </li>
+<li><a target="_blank" href="#">Resources</a></li>
+
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<main class="main-container">
+<!--Use this button to hide header when you want more screen space for presentation -->
+<aside class="hide-header">
+  <a href="#">Click To Hide Header</a>
+</aside>
+<!--Use this button to show header when you want to bring the header back -->
+  <aside class="show-header disabled">
+    <a href="#">Click To Show Header</a>
+  </aside>
+  <div id="main-content">
+<div class ="page-header">
+  <h1>Lecture 1: Tools and Standards</h1>
+</div>
+<section class ="content-block">
+  <h2 class ="content-head">
+    Agenda
+  </h2>
+  <ul>
+    <li>Introductions</li>
+    <li>Orientation</li>
+    <li>Web Developments Tools</li>
+    <li>Standards Based Development</li>
+  </ul>
+</section>
+<section class ="content-block">
+  <h2 class ="content-head">
+    Connect to your bcitcomp.ca account via FTP
+  </h2>
+  <p>Use Filezilla, or any FTP client to connect to bcitcomp.ca. The bcitcomp.ca server provides you with a space on the internet where you can publish your homework and assignments.</p>
+  <ol>
+    <li>choose: File->SiteManager->New Site, then describe the FTP server, eg "bcitcomp.ca"</li>
+<li>Host: bcitcomp.ca</li>
+<li>Port: 21</li>
+<li>User: {yourStudentNumberUsingAnUppercaseA}@bcitcomp.ca</li>
+<li>Password: {determined by you via email to your instructor}</li>
+<li>Servertype: FTP File Transfer Protocol</li>
+<li>LogonType: Normal</li>
+<li>click: Connect</li>
+</ol>
+<div class="content-img">
+  <img alt="Connect to account via FTP" src="../lecture/connect.jpg">
+</div>
+</section>
+
+<section class ="content-block">
+  <h2 class ="content-head">
+    Tools: Web Development
+  </h2>
+  <p>There are a LOT of tools to choose from these days. Desktop and mobile apps, online tools and services, etc.</p>
+
+<p><b>What kind of tools do you use?</b></p>
+
+<p>Workflow is defined as the process you take getting from start to completion on a task or series of tasks. For web development, it generally results in a page that has been created or updated by the use some kind of tool.</p>
+
+<p>There is no perfect platform or workflow, there is only your platform and workflow that matters. Once you can get the job done, you are off to the races, so find a workflow that suits you the best.</p>
+
+<h3>Some of the tools used by web developers:</h3>
+<p>Text Editors</p>
+<ul>
+
+<li><a href="#">Notepad++</a> - Text Editor (Win) * installed in BCIT lab computers *</li>
+<li><a href="#">Sublime Text 2</a> - Text Editor (Mac/Win)</li>
+<li><a href="#">Text Wrangler</a> - Text Editor (Mac)</li>
+</ul>
+<p>FTP (File Transfer Protocol) Clients</p>
+<ul>
+<li><a href="#">Filezilla</a> - FTP tool (Win) * installed in BCIT lab computers *</li>
+<li><a href="#">Cyberduck FTP</a> - FTP tool (Mac)</li>
+<li><a href="#">WS FTP</a> - FTP tool (Win)</li>
+</ul>
+<p>IDEs (Integrated Development Environments)</p>
+<ul>
+<li><a href="#">Coda</a> - Web Dev IDE (Mac)</li>
+<li><a href="#">Dreamweaver</a> - Web Dev IDE (Mac/Win)</li>
+<li><a href="#">Aptana</a> - Web Dev IDE (Win/Mac)</li>
+<li><a href="#">HTMLKit</a> - Web Dev IDE (Win)</li>
+<li><a href="#">Textastic</a> - Web Dev IDE (iPad)</li>
+<li><a href="#">Komodo</a> - Web Dev IDE (Mac/Win)</li>
+</ul>
+<p>Team Development</p>
+<ul>
+<li><a href="#">Dropbox</a> - File Sharing (Web)</li>
+<li><a href="#">GitHub</a> - Collaborative Development (Web/Client)</li>
+</ul>
+</section>
+</div>
+</main>
+<footer>
+<p>COMP1950 Website Mockup by Carson Bain and Anita Khuu</p>
+<a class="school-logo" target="_blank" href="https://www.bcit.ca/"><img alt="BCIT Logo" src="../home/BCITlogo.png"></a>
+<p class ="validate"><a target="_blank" href="http://validator.w3.org/check?uri=referer">Validate Code</a></p>
+
+</footer>
+</body>
+</html>
