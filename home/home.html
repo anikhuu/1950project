@@ -26,53 +26,95 @@
   <nav>
   <ul id="nav">
     <li><a href="/home.html">Home</a></li>
-  <li>Lectures
-  <i class="fa fa-caret-down" aria-hidden="true"></i>
-    <ul class="nav-drop">
-        <!--these will contain links to lectures as they are available-->
-    <li><a target="_blank" href="/lecture1.html">Lecture 1</a></li>
-    <li><a target="_blank" href="#">Lecture 2</a></li>
-    <li><a target="_blank" href="#">Lecture 3</a></li>
-    <li><a target="_blank" href="#">Lecture 4</a></li>
-    <li><a target="_blank" href="#">Lecture 5</a></li>
-    <li><a target="_blank" href="#">Lecture 6</a></li>
-    <li><a target="_blank" href="#">Lecture 7</a></li>
-    <li>Lecture 8</li>
-    <li>Lecture 9</li>
-    <li>Lecture 10</li>
-    <li>Lecture 11</li>
-    <li>Lecture 12</li>
-    </ul>
-  </li>
-  <li><a target="_blank" href="#">About</a></li>
+    <li>Lectures
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+      <ul class="nav-drop">
+          <!--these will contain links to lectures as they are available-->
+      <li><a target="_blank" href="../lecture/lecture.html">Lecture 1</a></li>
+      <li>Lecture 2</li>
+      <li>Lecture 3</li>
+      <li>Lecture 4</li>
+      <li>Lecture 5</li>
+      <li>Lecture 6</li>
+      <li>Lecture 7</li>
+      <li>Lecture 8</li>
+      <li>Lecture 9</li>
+      <li>Lecture 10</li>
+      <li>Lecture 11</li>
+      <li>Lecture 12</li>
+      </ul>
+    </li>
+    <li>Quiz
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+      <ul class="nav-drop">
+          <!--these will contain links to quizzes as they are available-->
+      <li><a target="_blank" href="../quiz/quiz.html">Quiz 1</a></li>
+      <li>Quiz 2</li>
+      <li>Quiz 3</li>
+      <li>Quiz 4</li>
+      <li>Quiz 5</li>
+      <li>Quiz 6</li>
+      <li>Quiz 7</li>
+      <li>Quiz 8</li>
+      <li>Quiz 9</li>
+      <li>Quiz 10</li>
+      </ul>
+    </li>
   <li><a target="_blank" href="#">Resources</a></li>
-
+  <!--SEARCH BAR-->
+  <li class ="search-wrap">
+  <input class="search-box" type="text" placeholder="Search" name="search">
+  <a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+</li>
   </ul>
+
 <!--MOBILE NAVIGATION -->
+<!--MOBILE SEARCH BAR-->
+<div class ="search-wrap search-mobile">
+<input class="search-box" type="text" placeholder="Search" name="search">
+<a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+</div>
 <a href="#"><i class="fa fa-bars fa-2x" id="mob-nav-icon" aria-hidden="true"></i></a>
+
 <div id="mobile-nav">
 
   <ul id="mob-nav-list">
+
     <li><a href="/home.html">Home</a></li>
-  <li class="parent-cat"><a href="#">Lectures</a>
-  <i class="fa fa-caret-down" aria-hidden="true"></i>
-    <ul class="mob-second-drop">
-        <!--these will contain links to lectures as they are available-->
-    <li><a target="_blank" href="/lecture1.html">Lecture 1</a></li>
-    <li><a target="_blank" href="#">Lecture 2</a></li>
-    <li><a target="_blank" href="#">Lecture 3</a></li>
-    <li><a target="_blank" href="#">Lecture 4</a></li>
-    <li><a target="_blank" href="#">Lecture 5</a></li>
-    <li><a target="_blank" href="#">Lecture 6</a></li>
-    <li><a target="_blank" href="#">Lecture 7</a></li>
-    <li>Lecture 8</li>
-    <li>Lecture 9</li>
-    <li>Lecture 10</li>
-    <li>Lecture 11</li>
-    <li>Lecture 12</li>
-    </ul>
-  </li>
-  <li><a target="_blank" href="#">About</a></li>
+    <li class="parent-cat one"><a href="#">Lectures</a>
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+      <ul class="mob-second-drop one">
+          <!--these will contain links to lectures as they are available-->
+      <li><a target="_blank" href="../lecture/lecture1.html">Lecture 1</a></li>
+      <li>Lecture 2</li>
+      <li>Lecture 3</li>
+      <li>Lecture 4</li>
+      <li>Lecture 5</li>
+      <li>Lecture 6</li>
+      <li>Lecture 7</li>
+      <li>Lecture 8</li>
+      <li>Lecture 9</li>
+      <li>Lecture 10</li>
+      <li>Lecture 11</li>
+      <li>Lecture 12</li>
+      </ul>
+    </li>
+    <li class="parent-cat two"><a href="#">Quiz</a>
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+      <ul class="mob-second-drop two">
+          <!--these will contain links to quizzes as they are available-->
+          <li><a target="_blank" href="../quiz/quiz.html">Quiz 1</a></li>
+          <li>Quiz 2</li>
+          <li>Quiz 3</li>
+          <li>Quiz 4</li>
+          <li>Quiz 5</li>
+          <li>Quiz 6</li>
+          <li>Quiz 7</li>
+          <li>Quiz 8</li>
+          <li>Quiz 9</li>
+          <li>Quiz 10</li>
+          </ul>
+        </li>
   <li><a target="_blank" href="#">Resources</a></li>
 
   </ul>
@@ -82,14 +124,7 @@
   </div>
 </header>
 <main class="main-container">
-<!--Use this button to hide header when you want more screen space for presentation -->
-  <aside class="hide-header">
-    <a href="#">Click To Hide Header</a>
-  </aside>
-  <!--Use this button to show header when you want to bring the header back -->
-    <aside class="show-header disabled">
-      <a href="#">Click To Show Header</a>
-    </aside>
+
   <aside class="info-bar">
     <p><i class="fa fa-lg fa-info-circle" aria-hidden="true"></i> This website is for BCIT students of the 12 week version of COMP1950. Check the <a href="#">course catalogue at BCIT</a> to see when this course is running next.</p>
   </aside>
