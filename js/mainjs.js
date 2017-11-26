@@ -7,9 +7,12 @@ $(document).ready(function(){
   $("#mob-nav-icon").click(function(){
 	$("#mobile-nav").slideToggle('fast');
 	});
-  $(".parent-cat").click(function(){
-    $(".mob-second-drop").slideToggle('fast');
+  $(".parent-cat.one").click(function(){
+    $(".mob-second-drop.one").slideToggle('fast');
     });
+    $(".parent-cat.two").click(function(){
+      $(".mob-second-drop.two").slideToggle('fast');
+      });
 //hide header and slide main container up for more presenting area
     $(".hide-header").click(function() {
       $(".hide-header").addClass("disabled");
