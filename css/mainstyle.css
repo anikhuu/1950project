@@ -296,7 +296,7 @@ footer p {
     padding: 10px;
     background-color: white;
     border-radius: 3px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
 }
 .studentid {
     width: 250px;
@@ -330,4 +330,29 @@ textarea:last-of-type {
 .shortanswer {
     width: 60%;
     height: 100px;
+}
+textarea:focus, input:focus {
+    outline: none;
+    box-shadow: inset 0px 0px 0px 2px #f17629;
+}
+/*--RESOURCES--*/
+
+#textbooks li {
+    list-style: none;
+    padding: 10px;
+    width: 200px;
+    float: left;
+}
+
+#textbooks li p:first-of-type {
+    font-weight: bold;
+}
+
+#textbooks li p{
+    margin: 3px;
+}
+
+img {
+    height: 200px;
+    border: 1px solid #999;
 }
