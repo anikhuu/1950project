@@ -27,16 +27,22 @@ h1 {
 	margin: 0 0 5px 0;
 }
 
-h2 {
+h2, footer {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	color: #777777;
-	margin: 0 0 10px 0;
+	margin: 0 0 10px 10px;
 }
 
 a {	text-decoration: none;}
 
 ol, ul {	list-style: none;}
+
+footer {
+    text-align: center;
+	padding: 10px;
+	border-top: dotted 2px #eee;
+}
 
 /* ------------------------------------------------------------
 	Sitemap Styles
@@ -47,7 +53,6 @@ ol, ul {	list-style: none;}
 	min-width: 100%;
 	padding: 40px;
 }
-
 
 li a {
     position: relative;
@@ -67,13 +72,11 @@ li a {
     z-index: 1;
 }
 
-
 li a {
 	-webkit-box-shadow: 1px 1px 2px rgba(106,113,127,0.2);
     -moz-box-shadow: 1px 1px 2px rgba(106,113,127,0.2);
     box-shadow: 1px 1px 2px rgba(106,113,127,0.2); 
 }
-
 
 li a:before {
 	content: " "attr(href)" ";
@@ -199,19 +202,6 @@ ul, li {
 .primary ul ul ul ul li a { border-top-color: #e67e22; }
 .primary ul ul ul ul li a:before, .primary ul ul ul ul li .fa { color: #e67e22; }
 
-
-.primary ul ul ul ul li .quiz  {
-    border-top-color: #9b59b6;
-}
-
-.primary ul ul ul ul li .quiz:before, .primary ul ul ul ul li .quiz > .fa  {
-   color: #9b59b6;
-}
-
-.primary ul ul ul ul li .hw {
-    color: #9b59b6;
-}
-
 .primary ul ul ul ul li:before,
 .primary ul ul ul ul li:first-child:before  {
 	border-top-style: none;
@@ -269,9 +259,7 @@ ul, li {
 
 /* --- Widths --- */
 .primary > ul > li > a,
-.primary > ul > li > ul > li{
-    width: 210px;
-}
+.primary > ul > li > ul > li,
 .primary > ul > li > ul > li:first-of-type{
     width: 320px;
 }
